@@ -36,16 +36,19 @@ export default {
                             <a class="mx-3" href="#">Course Formats</a>
                         </li>
                         <li>
-                            <a class="mx-3" href="#">Demos</a>
+                            <a class="mx-3" href="https://stylemixthemes.com/masterstudy/#demos">Demos</a>
                         </li>
                         <li>
-                            <a class="mx-1" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="mx-1" href="https://www.facebook.com/stylemixthemes/"><i
+                                    class="fa-brands fa-facebook"></i></a>
                         </li>
                         <li>
-                            <a class="mx-1" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="mx-1" href="https://twitter.com/stylemix_themes"><i
+                                    class="fa-brands fa-twitter"></i></a>
                         </li>
                         <li>
-                            <a class="mx-1" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="mx-1" href="https://www.instagram.com/stylemixthemes/"><i
+                                    class="fa-brands fa-instagram"></i></a>
                         </li>
                         <li>
                             <a class="mx-1" href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -54,19 +57,20 @@ export default {
                             <a class="mx-1" href="#"><i class="fa-brands fa-google-plus"></i></a>
                         </li>
                         <li>
-                            <a class="mx-1" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a class="mx-1" href="https://www.youtube.com/channel/UCpuJgzrLAbVKCHDo_1lluKA"><i
+                                    class="fa-brands fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
 
             </section>
 
-            <section>
-                <NavComp />
-            </section>
 
         </div>
 
+        <section class="container my-3">
+            <NavComp />
+        </section>
 
 
     </header>
