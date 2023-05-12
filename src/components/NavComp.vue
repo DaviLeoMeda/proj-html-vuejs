@@ -1,7 +1,7 @@
 <script>
 
 export default {
-    name: "MainComp"
+    name: "NavComp"
 }
 </script>
 
