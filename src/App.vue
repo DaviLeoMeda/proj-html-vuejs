@@ -1,9 +1,29 @@
 <script >
+import HeaderComp from "./components/HeaderComp.vue"
+import MainComp from "./components/MainComp.vue"
+import FooterComp from "./components/FooterComp.vue"
+import { store } from './store.js'
+
+
+export default {
+  name: 'App',
+  components: {
+    HeaderComp,
+    MainComp,
+    FooterComp
+
+  },
+  data() {
+    return {
+      store
+    }
+  }
+}
 
 </script>
 
 <template>
-  <h1>Ciao mondo</h1>
+  <HeaderComp />
 </template>
 
 <style lang="scss">
