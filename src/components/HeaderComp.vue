@@ -1,10 +1,12 @@
 <script>
 import NavComp from './NavComp.vue'
+import NavBar from './NavBar.vue'
 
 export default {
     name: "HeaderComp",
     components: {
-        NavComp
+        NavComp,
+        NavBar
     }
 }
 </script>
@@ -70,6 +72,10 @@ export default {
 
         <section class="container my-3">
             <NavComp />
+        </section>
+
+        <section>
+
         </section>
 
 

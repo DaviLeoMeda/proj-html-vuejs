@@ -12,23 +12,24 @@ export default {
             <img src="../../public/img/MasterStudy.svg" alt="">
         </div>
 
-        <div class="input-group mb-3">
+        <div class="input-group inputNav">
             <span class="input-group-text text-uppercase"><i class="fa-solid fa-bars mx-1"></i>Category</span>
-            <input type="text" placeholder="Search courses" class="form-control mysticBg inputNav"
+            <input type="text" placeholder="Search courses" class="form-control mysticBg"
                 aria-label="Amount (to the nearest dollar)">
             <button class="btn btn-outline-light petrol" type="button" id="inputGroupFileAddon04"><i
                     class="fa-solid fa-magnifying-glass"></i></button>
         </div>
 
         <div class="d-flex justify-content-between">
-            <span class="bfMegaphone">Become an Instructor</span>
-            <span class="bfBusiness">For Enterprises</span>
+            <span class="bfMegaphone mx-2">Become an Instructor</span>
+            <span class="bfBusiness mx-2">For Enterprises</span>
         </div>
 
         <div>
-            <a href=""><span class="bfLogin">Login</span></a>
-            <a href="#"><span class="text-uppercase bg-danger py-3 px-4 rounded-5 text-white redbutton">sign up</span></a>
-            <a href=""><i class="fa-regular fa-bookmark"></i></a>
+            <a href="" class="mx-2"><span class="bfLogin">Login</span></a>
+            <a href="#" class="mx-2"><span class="text-uppercase bg-danger py-3 px-4 rounded-5 text-white redbutton">sign
+                    up</span></a>
+            <a href="" class="mx-2"><i class="fa-regular fa-bookmark"></i></a>
         </div>
 
     </nav>
@@ -73,11 +74,15 @@ export default {
 }
 
 .inputNav {
-    width: 50px;
+    width: 500px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+
+nav {
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
 }
 </style>
