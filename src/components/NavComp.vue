@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <nav>
+    <nav class="d-flex justify-content-between align-items-center">
 
         <div>
             <img src="../../public/img/MasterStudy.svg" alt="">
@@ -14,7 +14,7 @@ export default {
 
         <div class="input-group mb-3">
             <span class="input-group-text text-uppercase"><i class="fa-solid fa-bars mx-1"></i>Category</span>
-            <input type="text" placeholder="Search courses" class="form-control mysticBg"
+            <input type="text" placeholder="Search courses" class="form-control mysticBg inputNav"
                 aria-label="Amount (to the nearest dollar)">
             <button class="btn btn-outline-light petrol" type="button" id="inputGroupFileAddon04"><i
                     class="fa-solid fa-magnifying-glass"></i></button>
@@ -26,8 +26,9 @@ export default {
         </div>
 
         <div>
-            <span class="bfLogin">Login</span>
-            <span class="text-uppercase bg-danger py-3 px-4 rounded-5 text-white redbutton">sign up</span>
+            <a href=""><span class="bfLogin">Login</span></a>
+            <a href="#"><span class="text-uppercase bg-danger py-3 px-4 rounded-5 text-white redbutton">sign up</span></a>
+            <a href=""><i class="fa-regular fa-bookmark"></i></a>
         </div>
 
     </nav>
@@ -38,6 +39,7 @@ export default {
 
 .mysticBg {
     background-color: $bg-mystic;
+
 }
 
 .petrol {
@@ -68,5 +70,14 @@ export default {
 .redbutton {
     font-size: 10px;
     font-weight: bold;
+}
+
+.inputNav {
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 </style>
