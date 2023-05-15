@@ -75,7 +75,7 @@ export default {
         </section>
 
         <section>
-
+            <NavBar />
         </section>
 
 

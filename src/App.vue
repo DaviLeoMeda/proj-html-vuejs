@@ -24,6 +24,7 @@ export default {
 
 <template>
   <HeaderComp />
+  <MainComp />
 </template>
 
 <style lang="scss">
