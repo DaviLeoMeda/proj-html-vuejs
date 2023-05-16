@@ -96,14 +96,16 @@ export const store = reactive(
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
                 NewPrice: '$50'
-            }, {
+            },
+            {
                 imgCard: '../../public/img/Tablet_272x161.jpg',
                 title: 'The Complete iOS 10 & Swift 3 Developer Course',
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
                 NewPrice: '$100'
-            }, {
+            },
+            {
                 imgCard: '../../public/img/Android_272x161.jpg',
                 title: 'The Complete iOS 10 & Swift 3 Developer Course - Build 20 Apps',
                 starE: '../../public/img/staremptyl.svg',
@@ -165,8 +167,72 @@ export const store = reactive(
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$139.99',
                 NewPrice: '$70'
-            },
+            }
 
+        ],
+        arrayLastCards: [
+            {
+                imgCard: '../../public/img/frog_272x161.jpg',
+                title: 'Digital Painting Light and Color: Amateur to Master',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$139.99',
+                NewPrice: '$70'
+            },
+            {
+                imgCard: '../../public/img/pencil_272x161.jpg',
+                title: 'The Colored Pencil Drawing Course',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$34.99',
+                NewPrice: '$18'
+            },
+            {
+                imgCard: '../../public/img/GitHub_272x161.jpg',
+                title: 'GitHub Ultimate: Master Git and GitHub - Beginners to Expert',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$99.99',
+                NewPrice: '$50'
+            },
+            {
+                imgCard: '../../public/img/WebDesigCSS_272x161.jpg',
+                title: 'Web Design for Beginners: Real World Coding in HTML & CSS',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$129.99',
+                NewPrice: '$65'
+            },
+            {
+                imgCard: '../../public/img/Xamarin_272x161.jpg',
+                title: 'Xamarin Forms: Build Native Cross-platform Apps with C#',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$189.99',
+                NewPrice: '$95'
+            },
+            {
+                imgCard: '../../public/img/wine_272x161.jpg',
+                title: 'Get Wine-Smart!',
+                starE: '../../public/img/staremptyl.svg',
+                starF: '../../public/img/starfull.svg',
+                OldPrice: '$49.99',
+                NewPrice: '$25'
+            }
+        ],
+        arrayAccess: [
+            {
+                imgCard: '../../public/img/image_box_1-221x231.png',
+                title: 'Become an Istructor',
+                text: 'Teach what you love. Masterstudy gives you the tools to create a course.',
+                textAnchor: 'start teaching'
+            },
+            {
+                imgCard: '../../public/img/image_box_2-234x231.png',
+                title: 'Access for Business',
+                text: 'Get unlimited access to 2,500 of top courses for your team.',
+                textAnchor: 'doing business'
+            }
         ]
     }
 )

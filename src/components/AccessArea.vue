@@ -1,12 +1,12 @@
 <script>
-import SmallCard from './SmallCard.vue'
+import BigCard from './BigCard.vue'
 import { store } from "../store"
 
 
 export default {
-    name: "MainCards",
+    name: "AccessArea",
     components: {
-        SmallCard
+        BigCard
     },
     data() {
         return {
@@ -21,12 +21,8 @@ export default {
 
 <template>
     <main>
-        <div class="assets my-4">
-
-            <h4>Popular Development Courses</h4>
-            <div class="row">
-                <SmallCard v-for="(elem, index) in store.arrayMainCards" :key="index" :infoCard="elem" />
-            </div>
+        <div class="row justify-content-around assets py-5">
+            <BigCard v-for="(elem, index) in store.arrayAccess" :key="index" :textCard="elem" />
         </div>
     </main>
 </template>
@@ -34,11 +30,14 @@ export default {
 <style lang="scss" scoped>
 @use '../style/partials/variables' as *;
 
+
 main {
+
+    background-color: #fff;
 
     .assets {
         width: 80%;
-        margin: 0 auto
+        margin: 0 auto;
     }
 }
 </style>
