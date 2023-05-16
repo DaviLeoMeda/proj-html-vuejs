@@ -16,9 +16,11 @@ export default {
             <h6 class="card-title">{{ infoCard.title }}</h6>
         </div>
 
-        <div class="card-body d-flex justify-content-between align-items-center">
-            <span>Stars</span>
-            <span>Price</span>
+        <div class="card-body">
+            <!-- <img v-for="n in 5" src="infoCard.star" :src="(n <= infoCard.vote) ? 'F' : 'E'" alt=""> -->
+            <i v-for="n in 5" class="fa-star" :class="(n <= infoCard.vote) ? 'fa-solid' : 'fa-regular'"></i>
+            <p class="text-decoration-line-through fs-6">{{ infoCard.OldPrice }}</p>
+            <p class="fs-5">{{ infoCard.NewPrice }}</p>
         </div>
     </div>
 </template>

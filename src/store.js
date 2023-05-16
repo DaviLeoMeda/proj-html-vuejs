@@ -31,7 +31,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
-                NewPrice: '$100'
+                NewPrice: '$100',
+                vote: '3'
             },
             {
                 imgCard: '../../public/img/WebDesigCSS_272x161.jpg',
@@ -39,7 +40,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$129.99',
-                NewPrice: '$65'
+                NewPrice: '$65',
+                vote: '4'
             },
             {
                 imgCard: '../../public/img/GitHub_272x161.jpg',
@@ -47,21 +49,24 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
-                NewPrice: '$50'
+                NewPrice: '$50',
+                vote: '5'
             }, {
                 imgCard: '../../public/img/Tablet_272x161.jpg',
                 title: 'The Complete iOS 10 & Swift 3 Developer Course',
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
-                NewPrice: '$100'
+                NewPrice: '$100',
+                vote: '1'
             }, {
                 imgCard: '../../public/img/Android_272x161.jpg',
                 title: 'The Complete iOS 10 & Swift 3 Developer Course - Build 20 Apps',
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
-                NewPrice: '$50'
+                NewPrice: '$50',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/Xamarin_272x161.jpg',
@@ -69,7 +74,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$189.99',
-                NewPrice: '$95'
+                NewPrice: '$95',
+                vote: '3'
             }
         ],
         arrayCompCards: [
@@ -79,7 +85,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
-                NewPrice: '$100'
+                NewPrice: '$100',
+                vote: '4'
             },
             {
                 imgCard: '../../public/img/WebDesigCSS_272x161.jpg',
@@ -87,7 +94,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$129.99',
-                NewPrice: '$65'
+                NewPrice: '$65',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/GitHub_272x161.jpg',
@@ -95,7 +103,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
-                NewPrice: '$50'
+                NewPrice: '$50',
+                vote: '2'
             },
             {
                 imgCard: '../../public/img/Tablet_272x161.jpg',
@@ -103,7 +112,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
-                NewPrice: '$100'
+                NewPrice: '$100',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/Android_272x161.jpg',
@@ -111,7 +121,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
-                NewPrice: '$50'
+                NewPrice: '$50',
+                vote: '3'
             },
             {
                 imgCard: '../../public/img/Xamarin_272x161.jpg',
@@ -119,7 +130,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$189.99',
-                NewPrice: '$95'
+                NewPrice: '$95',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/CSS_272x161.jpg',
@@ -127,7 +139,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$199.99',
-                NewPrice: '$100'
+                NewPrice: '$100',
+                vote: '1'
             },
             {
                 imgCard: '../../public/img/pencil_272x161.jpg',
@@ -135,7 +148,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$34.99',
-                NewPrice: '$18'
+                NewPrice: '$18',
+                vote: '2'
             },
             {
                 imgCard: '../../public/img/ninja_272x161.jpg',
@@ -143,14 +157,16 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$89.99',
-                NewPrice: '$45'
+                NewPrice: '$45',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/signature_4-544x322.jpg',
                 title: 'Become an Arabic Calligraphy Artist from Scratch',
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
-                NewPrice: '$199'
+                NewPrice: '$199',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/wine_272x161.jpg',
@@ -158,7 +174,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$49.99',
-                NewPrice: '$25'
+                NewPrice: '$25',
+                vote: '4'
             },
             {
                 imgCard: '../../public/img/frog_272x161.jpg',
@@ -166,7 +183,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$139.99',
-                NewPrice: '$70'
+                NewPrice: '$70',
+                vote: '5'
             }
 
         ],
@@ -177,7 +195,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$139.99',
-                NewPrice: '$70'
+                NewPrice: '$70',
+                vote: '2'
             },
             {
                 imgCard: '../../public/img/pencil_272x161.jpg',
@@ -185,7 +204,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$34.99',
-                NewPrice: '$18'
+                NewPrice: '$18',
+                vote: '4'
             },
             {
                 imgCard: '../../public/img/GitHub_272x161.jpg',
@@ -193,7 +213,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$99.99',
-                NewPrice: '$50'
+                NewPrice: '$50',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/WebDesigCSS_272x161.jpg',
@@ -201,7 +222,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$129.99',
-                NewPrice: '$65'
+                NewPrice: '$65',
+                vote: '3'
             },
             {
                 imgCard: '../../public/img/Xamarin_272x161.jpg',
@@ -209,7 +231,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$189.99',
-                NewPrice: '$95'
+                NewPrice: '$95',
+                vote: '4'
             },
             {
                 imgCard: '../../public/img/wine_272x161.jpg',
@@ -217,7 +240,8 @@ export const store = reactive(
                 starE: '../../public/img/staremptyl.svg',
                 starF: '../../public/img/starfull.svg',
                 OldPrice: '$49.99',
-                NewPrice: '$25'
+                NewPrice: '$25',
+                vote: '2'
             }
         ],
         arrayAccess: [
@@ -225,13 +249,15 @@ export const store = reactive(
                 imgCard: '../../public/img/image_box_1-221x231.png',
                 title: 'Become an Istructor',
                 text: 'Teach what you love. Masterstudy gives you the tools to create a course.',
-                textAnchor: 'start teaching'
+                textAnchor: 'start teaching',
+                vote: '5'
             },
             {
                 imgCard: '../../public/img/image_box_2-234x231.png',
                 title: 'Access for Business',
                 text: 'Get unlimited access to 2,500 of top courses for your team.',
-                textAnchor: 'doing business'
+                textAnchor: 'doing business',
+                vote: '4'
             }
         ]
     }
