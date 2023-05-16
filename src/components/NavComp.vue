@@ -21,8 +21,8 @@ export default {
         </div>
 
         <div class="d-flex justify-content-between">
-            <span class="bfMegaphone mx-2">Become an Instructor</span>
-            <span class="bfBusiness mx-2">For Enterprises</span>
+            <span class="bfMegaphone mx-2"><a href="#">Become an Instructor</a></span>
+            <span class="bfBusiness mx-2"><a href="#">For Enterprises</a></span>
         </div>
 
         <div>

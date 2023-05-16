@@ -67,6 +67,12 @@ export default {
     }
 }
 
+li a::hover {
+    background-color: rgb(116, 133, 148);
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+}
+
 .redbutton {
     font-size: 10px;
     font-weight: bold;
