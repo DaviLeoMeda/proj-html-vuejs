@@ -1,10 +1,32 @@
 <script>
+import FooterFirst from "./FooterFirst.vue"
 
 export default {
-    name: "FooterComp"
+    name: "FooterComp",
+    components: {
+        FooterFirst
+    }
 }
 </script>
 
-<template></template>
+<template>
+    <footer>
+        <div class="containerShort py-5">
+            <FooterFirst />
+        </div>
+    </footer>
+</template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use '../style/partials/variables' as *;
+
+footer {
+
+    background-color: $bg-blueBar;
+
+    .containerShort {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+</style>

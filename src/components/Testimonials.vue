@@ -45,15 +45,4 @@ main {
         transform: translate(-50%, -50%);
     }
 }
-
-
-
-
-
-// .bannerTest {
-//     top: 50%;
-//     left: 30%;
-//     width: 400px;
-//     transform: translate(-50%);
-// }
 </style>
