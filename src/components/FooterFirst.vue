@@ -30,7 +30,7 @@ export default {
             </p>
             <span><a href="#">info@masterstudy.com</a></span>
         </div>
-        <div class="text-white col-2">
+        <div class="text-white col-1 gx-1">
             <h5 class="text-uppercase">
                 social network
             </h5>
@@ -62,7 +62,7 @@ export default {
 
             </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 p-4">
             <img class="w-100" src="../../public/img/Top-udemy-courses-90-percent-off.jpg" alt="">
         </div>
     </div>
@@ -86,7 +86,7 @@ export default {
 div {
     .social {
 
-        width: 40px;
+
 
         a {
             background-color: #fff;
